@@ -1,12 +1,14 @@
 # Windows.Minecraft.Service
 A simple Windows Service wrapper for Minecraft Server
 
+This service wrapper program allows the Java-based Minecraft Server to run as a self-starting/stopping Windows Service.
+
 ## Dependencies
 1. An appropriate JDK ([Microsoft's](https://docs.microsoft.com/en-us/java/openjdk/download) is fine)
 2. The [Minecraft Server](https://www.minecraft.net/en-us/download/server) .JAR file from Mojang
 3. Visual Studio 2022 to compile the code ([Community Edition](https://visualstudio.microsoft.com/downloads/) is fine)
 ## Compiling
-Simply open the solution (.SLN) file, select the configuration (Debug, Release, etc.) and compile (Control-Shift-B)
+Simply open the solution (.SLN) file, select the configuration (Debug, Release, etc.) and compile (Control-Shift-B).
 ## Installation
 These instructions assume that Visual Studio 2022 has already compiled the service wrapper code.
 
