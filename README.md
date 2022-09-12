@@ -1,6 +1,9 @@
 # Windows.Minecraft.Service
 A simple Windows Service wrapper for Minecraft Server
 
+## Dependencies
+1. An appropriate JDK ([Microsoft's is fine](https://docs.microsoft.com/en-us/java/openjdk/download))
+2. The [Minecraft Server .JAR file](https://www.minecraft.net/en-us/download/server) from Mojang
 ## Installation
 These instructions assume that Visual Studio 2022 has already compiled the service wrapper code.
 
