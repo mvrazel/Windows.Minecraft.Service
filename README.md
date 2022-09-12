@@ -30,10 +30,10 @@ Copy the following files from the Visual Studio output directory (e.g., "bin\Rel
 * Windows.Minecraft.Service.exe
 * Windows.Minecraft.Service.config
 
-Edit the "Windows.Minecraft.Service.config" and place a "Parameters" key in the "appSettings" section (example follows) --
+Optionally edit the "Windows.Minecraft.Service.config" and adjust the "Parameters" key in the "appSettings" section (example follows) --
 ```
 <appSettings>
-  <add key="Parameters" value="-server -Xmx8G -Xms4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -jar minecraft_server.1.19.2.jar nogui"/>
+  <add key="Parameters" value="-Xmx1024M -Xms1024M -jar minecraft_server.1.19.2.jar nogui"/>
 </appSettings>
 ```
 Note: Make sure the name of the .JAR file matches the name of the file in the "Minecraft" directory. Other parameters may be different depending on your needs.
