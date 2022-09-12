@@ -2,8 +2,11 @@
 A simple Windows Service wrapper for Minecraft Server
 
 ## Dependencies
-1. An appropriate JDK ([Microsoft's is fine](https://docs.microsoft.com/en-us/java/openjdk/download))
-2. The [Minecraft Server .JAR file](https://www.minecraft.net/en-us/download/server) from Mojang
+1. An appropriate JDK ([Microsoft's](https://docs.microsoft.com/en-us/java/openjdk/download) is fine)
+2. The [Minecraft Server](https://www.minecraft.net/en-us/download/server) .JAR file from Mojang
+3. Visual Studio 2022 to compile the code ([Community Edition](https://visualstudio.microsoft.com/downloads/) is fine)
+## Compiling
+Simply open the solution (.SLN) file, select the configuration (Debug, Release, etc.) and compile (Control-Shift-B)
 ## Installation
 These instructions assume that Visual Studio 2022 has already compiled the service wrapper code.
 
@@ -13,7 +16,7 @@ C:
 md C:\Windows.Minecraft.Service\Minecraft
 cd C:\Windows.Minecraft.Service\Minecraft
 ```
-Next, download the [Minecraft Server .JAR file](https://www.minecraft.net/en-us/download/server) from Mojang into the "C:\Windows.Minecraft.Service\Minecraft" directory. Make a note of the name of the file. In the same directory, create a text file called "eula.txt" with the following content --
+Next, download the [Minecraft Server](https://www.minecraft.net/en-us/download/server) .JAR file from Mojang into the "C:\Windows.Minecraft.Service\Minecraft" directory. Make a note of the name of the file. In the same directory, create a text file called "eula.txt" with the following content --
 ```
 eula=true
 ```
